@@ -32,10 +32,9 @@ jobs:
         # Use repository name as base so the site works on https://<owner>.github.io/<repo>/
         run: npm run build -- --base /${{ github.event.repository.name }}/
 
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to gh-pages branch (peaceiris)
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: ./dist
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
