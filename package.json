@@ -75,7 +75,7 @@
     "@meituan-nocode/vite-plugin-dev-logger": "^0.1.0",
     "@meituan-nocode/vite-plugin-nocode-html-transformer": "^0.3.1",
     "@types/react": "^18.2.56",
-    "@types.react-dom": "^18.2.19",
+    "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react": "4.3.4",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.56.0",
