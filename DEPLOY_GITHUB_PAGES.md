@@ -46,11 +46,4 @@
 - 额外问题：工作流中使用了 `npm ci`，但本仓库没有 `package-lock.json`，导致 `npm ci` 失败并中止流程。
 - 解决方案：我已把 workflow 改为使用 `peaceiris/actions-gh-pages@v4` 将构建产物推送到 `gh-pages` 分支；同时把安装命令从 `npm ci` 改为 `npm install --no-audit --no-fund` 以适应没有 lockfile 的仓库环境。
 
-## 故障排查小贴士 ⚠️
-
-- 如果页面 404：确认 `--base` 正确或确认访问的 URL 是否包含仓库名，并确认仓库 Settings → Pages 的 Source 设为 `gh-pages branch`。
-- 如果 Actions 失败：查看控制台日志中失败步骤的详细输出，常见原因是依赖安装失败或构建错误。
-
 ---
-
-如果你愿意，我可以现在把这些更改提交并推送到 `main`。想让我现在提交吗？
