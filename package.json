@@ -69,7 +69,7 @@
     "zod": "^3.23.8",
     "zustand": "^5.0.9",
     "ethers": "^6.7.0",
-    "@metamask/eth-sig-util": "^3.0.0"
+    "@metamask/eth-sig-util": "^8.2.0"
   },
   "devDependencies": {
     "@meituan-nocode/vite-plugin-dev-logger": "^0.1.0",
