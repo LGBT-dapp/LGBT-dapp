@@ -41,7 +41,8 @@
 ## 修复说明（关于出错）
 
 - 错误原因：GitHub Actions 报错提示内部使用了已弃用的 `actions/upload-artifact@v3`，这是 `actions/upload-pages-artifact` 或其它动作的内部依赖造成的兼容性问题；因此工作流自动中止。
-- 解决方案：我已把 workflow 改为使用 `peaceiris/actions-gh-pages@v4` 将构建产物推送到 `gh-pages` 分支，规避了已弃用的动作依赖。
+- 额外问题：工作流中使用了 `npm ci`，但本仓库没有 `package-lock.json`，导致 `npm ci` 失败并中止流程。
+- 解决方案：我已把 workflow 改为使用 `peaceiris/actions-gh-pages@v4` 将构建产物推送到 `gh-pages` 分支；同时把安装命令从 `npm ci` 改为 `npm install --no-audit --no-fund` 以适应没有 lockfile 的仓库环境。
 
 ## 故障排查小贴士 ⚠️
 

@@ -26,7 +26,8 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        # Use `npm install` because `npm ci` requires an existing package-lock.json
+        run: npm install --no-audit --no-fund
 
       - name: Build (Vite)
         # Use repository name as base so the site works on https://<owner>.github.io/<repo>/
