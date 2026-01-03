@@ -57,4 +57,13 @@ All Rights Reserved.
   <a href="https://github.com/yzhao112" target="_blank">
     <img src="https://github.com/yzhao112.png" width="100" height="100" style="border-radius: 50%; margin: 0 10px; object-fit: cover;" alt="yzhao112" />
   </a>
+  <a href="https://github.com/Vtwonine" target="_blank">
+    <img src="https://github.com/Vtwonine.png" width="100" height="100" style="border-radius: 50%; margin: 0 10px; object-fit: cover;" alt="Vtwonine" />
+  </a>
+  <a href="https://github.com/jillhuang69" target="_blank">
+    <img src="https://github.com/jillhuang69.png" width="100" height="100" style="border-radius: 50%; margin: 0 10px; object-fit: cover;" alt="jillhuang69" />
+  </a>
+  <a href="https://github.com/huangxinyue8616" target="_blank">
+    <img src="https://github.com/huangxinyue8616.png" width="100" height="100" style="border-radius: 50%; margin: 0 10px; object-fit: cover;" alt="huangxinyue8616" />
+  </a>
 </div>
