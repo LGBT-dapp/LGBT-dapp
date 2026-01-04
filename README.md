@@ -11,18 +11,12 @@
 
 <h1 align="left">产品Demo</h1>
 
-# LGBT-dapp
 
-<p align="right"><img src="img/logo.svg" alt="logo" width="80"/></p>
+<img src="img/Demo1.png" align="center">
 
 面向 LGBTQ+ 社区的去中心化社交演示应用（中文）。
 
 产品 Demo： https://lgbt-dapp.github.io/LGBT-dapp/ （可用 MetaMask 等钱包试用）
-
-简介
------
-
-LGBT-dApp 是一个演示型项目，展示如何将社交功能与以太坊智能合约结合，目标是为边缘化群体提供更高的隐私保护与表达自由。本仓库包含前端（Vite + React）与合约（Hardhat）示例代码，适合作为学习、演示与二次开发的起点。
 
 为什么做这个项目
 ------------------
@@ -247,17 +241,12 @@ PRIVATE_KEY=0xYOUR_PRIVATE_KEY_FOR_DEPLOY
 - 本地节点：`npx hardhat node`，并在另一个终端 `npm run deploy-contracts`
 - 前端连接：在 `src/lib/contractConfig.js` 修改 `SOCIAL_CONTRACT_ADDRESS` 为本地部署地址或测试网地址
 
-如果你愿意，我可以继续：
-- 生成一个 `src/components/PostCard.jsx` 的实际文件并在页面中引入；
-- 添加 `.env.example` 文件到仓库；
-- 在 `DEPLOY_GITHUB_PAGES.md` 中补充更多部署细节。
-
 部署说明
 ---------
 
 要将站点发布到 GitHub Pages，请参阅： `DEPLOY_GITHUB_PAGES.md`
 
-许可证
+License
 -------
 
 All Rights Reserved.
@@ -291,6 +280,5 @@ All Rights Reserved.
 	</a>
 </div>
 
-感谢每一位为本项目贡献时间与想法的朋友。
 
 
