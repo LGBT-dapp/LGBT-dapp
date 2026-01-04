@@ -18,6 +18,8 @@
 
 产品 Demo： https://lgbt-dapp.github.io/LGBT-dapp/ （可用 MetaMask 等钱包试用）
 
+PC端安装包(v1.0.0)也以发布，详见release.
+
 为什么做这个项目
 ------------------
 
