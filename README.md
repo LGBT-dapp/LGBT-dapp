@@ -42,7 +42,7 @@
 - 状态管理与网络：zustand、react-query
 - 其它：react-router、sonner、recharts 等（详见 `package.json`）
 
-仓库结构（tree 视图）
+仓库结构
 ------------------
 
 ```text
