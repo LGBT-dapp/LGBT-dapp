@@ -1,3 +1,5 @@
+![](asserts/logo-1.png)
+
 # LGBT-dapp
 <img src="img/logo.svg" align="right" width="80px">
 面向LGBTQ+群体的去中心化社交应用（目前只提供中文版本） Decentralized App for LGBTQ+ Community
