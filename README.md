@@ -46,6 +46,7 @@ PC端安装包(v1.0.0)也以发布，详见release.
 - 状态管理与网络：zustand、react-query
 - 其它：react-router、sonner、recharts 等（详见 `package.json`）
 
+
 仓库结构
 ------------------
 
